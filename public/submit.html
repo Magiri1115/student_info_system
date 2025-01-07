@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+  <html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+     <p>送信が完了しました。<br>
+    ５秒後にフォームページに戻ります。</p>
+    <!--手動で戻る-->
+    <a href='/'>もどる</a>
+    <script>
+      setTimeout(() => {
+        window.location.href = '/';
+      }, 5000); 
+    </script>
+  </body>
+</html>

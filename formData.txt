@@ -1,0 +1,8 @@
+Time: 2024/12/25 14:09:33, student_id: 1015, name: undefined, grade: 3, class: C, gender: 1, subject: pe, score: 20
+
+{"student_id":"1456","grade":"1","class":"A","gender":"0","subject":"math","score":"80"}
+{"student_id":"1357","grade":"2","class":"B","gender":"0","subject":"math","score":"10"}
+{"student_id":"1678","grade":"1","class":"A","gender":"1","subject":"science","score":"50"}
+{"student_id":"1000","grade":"2","class":"C","gender":"0","subject":"science","score":"90"}
+{"student_id":"1245","grade":"3","class":"B","gender":"1","subject":"math","score":"80"}
+{"student_id":"1010","grade":"2","class":"B","gender":"0","subject":"english","score":"70"}
