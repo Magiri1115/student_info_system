@@ -17,21 +17,26 @@ Node.js、Express、MySQLを使用して構築されたシンプルな学生情�
 1. このリポジトリをクローン
   ```bash
    git clone https://github.com/yourusername/student-info-system.git
+  ```
 2. プロジェクトディレクトリに移動
   ```bash
   cd studnet-info-system
+  ```
 3. 必要なモジュールをインストール
   ```bash 
   npm install
+  ```
 ## 使用方法
-1.サーバーを起動 
+1. サーバーを起動 
   ```bash
   sudo node server.js
-')
-2.ブラウザで以下のURLにアクセス。
+  ```
+2. ブラウザで以下のURLにアクセス。
+  ```URL
 https://192.168.0.15:443
-
+  ```
 ## スキーマ
+  ```MySQL
 CREATE TABLE students (
   id INT PRIMARY KEY,
   student_id INT,
@@ -41,18 +46,19 @@ CREATE TABLE students (
   subject VARCHAR(50),
   score INT
 );
-
+  ```
 ## 注意事項
 node_modulesフォルダはリポジトリに含まれていません。
 依存関係を復元するには以下のコマンドを使用してください。
 ```bash
 npm install
-
+```
 ##ライセンス
 依存関係は'package.json'と'package-lock.json'に記録されています。
 このプロジェクトは [MIT License](./LICENSE) の下で公開されています。
 ### システムバージョン
-  "dependencies": {
+  ```JavaScript  
+"dependencies": {
     "body-parser": "^1.20.3",
     "cors": "^2.8.5",
     "ejs": "^3.1.10",
@@ -65,7 +71,7 @@ npm install
     "@types/express": "^5.0.0",
     "@types/node": "^22.10.2"
   }
-
+  ```
 ## 開発環境と使用言語
 - OS: Ubuntu 20.04
 - 開発ツール: Node.js 18.0, MySQL 8.0
